@@ -122,7 +122,7 @@ p{
  #tt{
     position: absolute;
     z-index: 10;
-    bottom:-85px;
+    bottom:0;
     height: 30px;
     width: 100%;
     background: linear-gradient(180deg, #F28B66 0%, #BF4539 100%);
