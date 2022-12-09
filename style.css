@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins",sans-serif;
+
+}
+body{
+height: 100vh;
+overflow: hidden;
+background-image: url('./space2.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position-x: left;
+}
+input[type=radio]{
+   
+    display: none;
+     }
+   
+.wrapper{
+    margin: 20px 90px 90px 90px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.container__suit-choice{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+
+
+.logo{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+p{
+    font-size: 64px;
+}
+
+.container__colors{
+    width: 400px;
+    border-top: 3px white solid;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+}
+.suit{
+    margin-bottom: 140px;
+}
+.suit div{
+    font-size: 48px;
+    text-align: right;
+}
+#purpleChoice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #9A36BC;
+ }
+
+#purple2Choice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #7665BC;
+ }
+#blueChoice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #313BBC;
+ }
+#blue2Choice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #4E9ABC;
+ }
+#greenChoice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #70BC28;
+ }
+#green2Choice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #57BC66;
+ }
+#redChoice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #BC1007;
+ }
+#red2Choice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #BC4E17;
+ }
+#orangeChoice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #BC7B1C;
+ }
+#whiteChoice{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #FFFFFF;
+ }
+ #tt{
+    position: absolute;
+    z-index: 10;
+    bottom:-85px;
+    height: 30px;
+    width: 100%;
+    background: linear-gradient(180deg, #F28B66 0%, #BF4539 100%);
+ }
+#myImageId{
+    object-fit: cover;
+   height: 800px;
+   width: 500px;
+
+
+}
+.container__suit{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+
+  
+}
